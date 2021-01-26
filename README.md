@@ -1,17 +1,18 @@
-# Module2-reflection-ngày 25/1
+# Module2-reflection-ngày 26/1
 ***
-- Web động là những trang web có khả năng thay đổi, ngôn ngữ phía máy chủ như PHP, JAVA...
-- Web tĩnh là trang web không có khả năng thay đổi,  được dùng HTML, CSS, JS....<br>
-- LAMP là viết tắt công nghệ bao gồm các thành phần : Linux, Apache, MySQL, PHP.
-- LINUX là một hệ điều hành máy chủ WEB SITE
-- APACHE là phần mềm máy chủ WEB SERVER, là nơi đón nhận Request của client và reponse.
-- MySQL là một phần mêm cơ sở quản lý dữ liệu. Là nơi bảo mật, cung cấp dữ liệu
-- PHP là ngôn ngữ lập trình phía sever
-
+- Mảng là biến đặc biệt, chứa nhiều giá trị tại một thời điểm. có ba loại mảng : 
+  - Mảng 1 chiều với chỉ số
+  - Mảng 1 chiều với chỉ số là từ khóa
+  - Mảng đa chiều chứa nhiều mảng
+- Các cách sắp xếp mảng: 
+  - soft() - sắp xếp mảng tăng dần
+  - rsoft() - sắp xếp mảng giảm dần
+  - asoft() - xếp mảng tăng dần theo từ khóa
+  - arsoft() - xếp mảng tăng dần theo giá trị
+  - ksoft () - xếp mảng giảm dần theo từ khóa
+  - krsoft() - xếp mảng giảm dần theo giá trị
 ***
-# Reflection về Master Syllabus.
- - Nắm vững về lập trình đối tượng OOP và PHP
- - Thiết kế được cơ sở dữ liệu và giải thuật toán
-- Thành thạo clean code
- - Nắm vững thiết kế cơ sở dữ liệu MySQL
- - Triển khai được mô hình MVC
+# reflection Lệnh require - require_once - include - include_once
+- Cả 4 lệnh đều dùng để import 1 file khác vào file hiện tại, mục đích giúp cho file khác có thể sử dụng các thư viện file hiện tại
+- Sự khác biệt giữa 2 là require và require_one nếu chương trình bị lỗi thì lập tức sẽ dừng lại và ra thông báo lỗi. Còn nếu sử dụng include thì sẽ ra 1 lời cảnh bảo nhưng vẫn chạy đến chương trình
+- Khác biệt giữa require và require_one là require_one chỉ import đúng 1 lần . Nếu dùng lệnh này ở 1 file 2 lần thì lần thứ 2 nó sẽ không thực thi nữa.
