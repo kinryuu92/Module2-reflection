@@ -7,3 +7,11 @@
 - APACHE là phần mềm máy chủ WEB SERVER, là nơi đón nhận Request của client và reponse.
 - MySQL là một phần mêm cơ sở quản lý dữ liệu. Là nơi bảo mật, cung cấp dữ liệu
 - PHP là ngôn ngữ lập trình phía sever
+
+***
+# Reflection về Master Syllabus.
+ - Nắm vững về lập trình đối tượng OOP và PHP
+ - Thiết kế được cơ sở dữ liệu và giải thuật toán
+- Thành thạo clean code
+ - Nắm vững thiết kế cơ sở dữ liệu MySQL
+ - Triển khai được mô hình MVC
