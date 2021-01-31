@@ -7,16 +7,14 @@
 VD:
   function __construct(){     
      echo 'Calling constructor';<br/>
-  }   
- 
+  }<br/>
   function some_method(){     
       echo 'Calling a method';<br/>  
   }  
- 
   function __destruct()    {     
        echo 'Calling destructor';<br/>   
-  }
- }
+  }<br/>
+ }<br/>
  $myObject = new MyClass();<br/>
  $myObject->some_method();
    
@@ -46,12 +44,12 @@ VD:
 - JSON là đọc dữ liệu từ máy chủ Web và hiển thị dữ liệu trong một trang web
 - Chuyển đổi đối tượng PHP thành JSON ta dùng hàm json_encode()
 VD: 
-<?php
-$myObj->name = "tu";
-$myObj->age = 30;
-$myObj->city = "Ha Noi";
-$myJSON = json_encode($myObj);
-echo $myJSON;
+<?php<br/>
+$myObj->name = "tu";<br/>
+$myObj->age = 30;<br/>
+$myObj->city = "Ha Noi";<br/>
+$myJSON = json_encode($myObj);<br/>
+echo $myJSON;<br/>
 ?>
 
 - Namespace là một hình thức đóng gói các hạng mục liên quan với nhau, nhóm các 
