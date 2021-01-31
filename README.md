@@ -38,13 +38,14 @@ VD:
  
  - Từ khóa Final hạn chế tối đa việc ghi đè, ngăn chặn kế thừa từ một lớp và việc ghi đè phương thức
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Module2-reflection-ngày 28/1
 ***
 - JSON là đọc dữ liệu từ máy chủ Web và hiển thị dữ liệu trong một trang web
 - Chuyển đổi đối tượng PHP thành JSON ta dùng hàm json_encode(). <br/>
 VD: 
-<?php<br/>
+<?php
 $myObj->name = "tu";<br/>
 $myObj->age = 30;<br/>
 $myObj->city = "Ha Noi";<br/>
