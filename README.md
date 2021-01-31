@@ -42,7 +42,7 @@ VD:
 # Module2-reflection-ngày 28/1
 ***
 - JSON là đọc dữ liệu từ máy chủ Web và hiển thị dữ liệu trong một trang web
-- Chuyển đổi đối tượng PHP thành JSON ta dùng hàm json_encode()
+- Chuyển đổi đối tượng PHP thành JSON ta dùng hàm json_encode(). <br/>
 VD: 
 <?php<br/>
 $myObj->name = "tu";<br/>
