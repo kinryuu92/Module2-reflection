@@ -3,24 +3,22 @@
 ***
 - Vòng đời của một đối tượng : 
    + Khởi tạo đối tượng: __construct() --> sử dụng đối tương --> Hủy đối tương __destruct()
-  class MyClass{   
+   
 VD:
- function __construct(){     
+  function __construct(){     
      echo 'Calling constructor<br/>';   
- }   
+  }   
  
- function some_method(){     
+  function some_method(){     
       echo 'Calling a method<br/>';  
- }  
+  }  
  
- function __destruct()    {     
-      echo 'Calling destructor<br/>';   
+  function __destruct()    {     
+       echo 'Calling destructor<br/>';   
+  }
  }
-}
-Khi chúng ta sử dụng lớp này trong file “index.php” như sau:
-require_once 'MyClass.php';
-$myObject = new MyClass();
-$myObject->some_method();
+ $myObject = new MyClass();
+ $myObject->some_method();
    
    
 - Kế thừa (Inheritance) là cơ chế cho phép một lớp con sử dụng lại các đặc điểm và hành vi của lớp cha
