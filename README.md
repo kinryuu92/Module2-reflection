@@ -37,12 +37,12 @@
 
 <h3> Khi nào dùng interface và khi nào dùng abstract Class. </h3><br>
 Nhìn chung cả 2 đều được coi như là một bản thiết kế cho các class con kế thừa nó<br>
-    -  Abstract class là bản thiết kế cho class: <br>
+     Abstract class là bản thiết kế cho class: <br>
        -  Về bản chất abstract class là một bản class khai báo thêm các thuộc tính và phương thức khác không phải trừu tượng.
          nó được xem như bản thiết kế cho class vì những class extends lại từ nó ngoài override lại các phương thức trừu tượng 
          của nó thì có thể sử dụng nó.<br>
        -  Abstract thường được sử dụng trong trường hợp class kế thừa từ nó cùng bản chất<br>
-    -  Interface là "bản thiết kế" cho Method:<br>
+     Interface là "bản thiết kế" cho Method:<br>
        -  Vì những class implements đều ghi đều phải override lại phương thức của nó<br>
        -  Interface thường được sử dụng trong trường hợp các kế  thừa không có cùng bản chất như nhau
 
