@@ -1,9 +1,9 @@
 
 # Module2-reflection-ngày 1/2
 ***
-<h3> Abstrack Class là gì: 
-   - Lớp trừu tượng được xem như 1 class cha cha tất cả các class nó cùng bản chất, và phải dùng từ khóa <strong>extends<strong>
-   - Không cho phép có các  tham số chỉ khai báo các thuộc tính và phương thức bình thường.
+<h3> Abstrack Class là gì: <br>
+   - Lớp trừu tượng được xem như 1 class cha cha tất cả các class nó cùng bản chất, và phải dùng từ khóa <strong>extends<strong><br>
+   - Không cho phép có các  tham số chỉ khai báo các thuộc tính và phương thức bình thường.<br>
    - Các phương thức định nghĩa abstract trong abstract class chỉ khai báo tên hàm và không viết nội dung hàm đó. Nội dung sẽ đươc viết trong class kế thừa khi override lại phương thức đó
    - <h3> Ví dụ </h3>
     <?php <br>
