@@ -19,21 +19,21 @@
 <h3> Interface là gì : </h3></br>
     -  Không phải là một lớp. Nó được mô tả như một bản thiết kế cho các class có chung cách thức hoạt động. <br>
     -  Không phải một lớp lên nó không định nghĩa thuộc tính và khởi taọ đối tượng mà chỉ khai báo phương thức <br>
-    -  Các phương thức chỉ khai báo tên hàm và không viết nội dung hàm trong đó.
-    -  Không có khái niệm phạm vi phương thức, tất cả là public
-    -  Lớp con kế thừa interface sẽ phải ghi đè tất cả phương thức trên đó
-    -  Có thể kế thừa nhiều interface khác nhau bằng từ khóa implements.
- h3> ví dụ: </h3>
-      <?php
-      interface Move 
-   {
-       function run();
-   }
-      class Dog implements Move
-   {
-       public function run () 
-        echo "Con chó chạy nhanh";
-    }
+    -  Các phương thức chỉ khai báo tên hàm và không viết nội dung hàm trong đó.<br>
+    -  Không có khái niệm phạm vi phương thức, tất cả là public<br>
+    -  Lớp con kế thừa interface sẽ phải ghi đè tất cả phương thức trên đó<br>
+    -  Có thể kế thừa nhiều interface khác nhau bằng từ khóa implements.<br>
+ h3> ví dụ: </h3><br>
+      <?php<br>
+      interface Move <br>
+   {<br>
+       function run();<br>
+   }<br>
+      class Dog implements Move<br>
+   {<br>
+       public function run () <br>
+        echo "Con chó chạy nhanh";<br>
+    }<br>
 
 <h3> Khi nào dùng interface và khi nào dùng abstract Class. </h3><br>
    -  Nhìn chung cả 2 đều được coi như là một bản thiết kế cho các class con kế thừa nó<br>
