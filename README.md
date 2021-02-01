@@ -1,4 +1,24 @@
 
+# Module2-reflection-ngày 1/2
+***
+<h3> Abstrack Class là gì: 
+   - Lớp trừu tượng được xem như 1 class cha cha tất cả các class nó cùng bản chất, và phải dùng từ khóa <strong>extends<strong>
+   - Không cho phép có các  tham số chỉ khai báo các thuộc tính và phương thức bình thường.
+   - Các phương thức định nghĩa abstract trong abstract class chỉ khai báo tên hàm và không viết nội dung hàm đó. Nội dung sẽ đươc viết trong class kế thừa khi override lại phương thức đó
+   - <h3> Ví dụ </h3>
+    <?php <br>
+      abstract class Animal{<br>
+      public $name;<br>
+      abstract function run();<br>
+   }<br>
+      class Dog extends Animal{<br>
+   } <br>
+      public function run(){<br>
+      echo "Con chó chạy nhanh";<br>
+    }
+      
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Module2-reflection-ngày 29/1
 ***
 - Vòng đời của một đối tượng : 
