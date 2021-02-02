@@ -2,9 +2,9 @@
 ***
 
 - <h2>Clean code</h2>
-  + Giúp công việc cộng tác nhóm, dễ hiểu code, đơn giản dễ đọc.
-  + Dễ thay đổi, bảo trì, cải tiến.
-  + Đáp ứng được tính logic
+  +  Giúp công việc cộng tác nhóm, dễ hiểu code, đơn giản dễ đọc.
+  +  Dễ thay đổi, bảo trì, cải tiến.
+  +  Đáp ứng được tính logic
 - Các cách thực hành clean code
   + Đặt các tên lớp, phương thức và biến thích hợp. Chúng phải đơn giản và có ý nghĩa và đáp ứng được ba mục đích: nó làm gì, tại sao nó tồn tại và cách nó được sử dụng.
   + Nhiều LTV thường hay viết những đoạn code quá phức tạp. Họ giao quá  nhiều trách nhiệm trong một lớp, điều này làm nó phức tạp khó duy trì vì vậy chỉ giao nhiệm vụ duy nhất cho một class
