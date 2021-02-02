@@ -1,7 +1,7 @@
 # Module2-reflection-ngày 2/2
 ***
 
-- <h2>Clean code</h2>
+- Clean code:
   +  Giúp công việc cộng tác nhóm, dễ hiểu code, đơn giản dễ đọc.
   +  Dễ thay đổi, bảo trì, cải tiến.
   +  Đáp ứng được tính logic
