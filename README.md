@@ -16,9 +16,9 @@
     + 1 dòng chỉ chứa 1 biến
     + 1 hàm không vượt quá 5 tham số
  
-- <h2>Refactoring code</h2>
+- Refactoring code
   + Giúp code dễ đọc, dễ tìm hiểu, dễ tiếp cận hơn từ đó nó sẽ giúp chúng ta dễ bảo trì, mở rộng hệ thống.
-<h2>SOLID là gif? </h2>
+- SOLID là gif?
   + Là viết của 5 chữ cái đầu tiên trong 5 nguyên tắc thiết kế hướng đối tượng. Giúp cho LTV viết ra những đoạn code dễ đọc, dễ hiểu.
   + 5 nguyên tắc bao gồm : 
     +  Single responsibility priciple: Mỗi lớp chỉ nên chịu trách nhiệm về một nhiệm vụ cụ thể nào đó. Nếu có quá nhiều chức năng sẽ trở lên khó đọc.
@@ -26,8 +26,8 @@
     + Liskov substitution principle: Các đối tượng (instance) kiểu class con có thể thay thế các đối tượng kiểu class cha mà không gây ra lỗi.
     + Interface segregation principle : Thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể.
     + Dependency inversion principle: 
-       + Các module cấp cao không nên phụ thuộc vào các modules cấp thấp. Cả 2 nên phụ thuộc vào abstraction.
-       + Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại (Các class giao tiếp với nhau thông qua interface (abstraction), không phải thông qua implementation.)
+          + Các module cấp cao không nên phụ thuộc vào các modules cấp thấp. Cả 2 nên phụ thuộc vào abstraction.
+          + Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại (Các class giao tiếp với nhau thông qua interface (abstraction), không phải thông qua implementation.)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
