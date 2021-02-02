@@ -1,3 +1,35 @@
+# Module2-reflection-ngày 2/2
+***
+
+<h2>Clean code</h2>
+ + Giúp công việc cộng tác nhóm, dễ hiểu code, đơn giản dễ đọc.
+ + Dễ thay đổi, bảo trì, cải tiến.
+ + Đáp ứng được tính logic
+Các cách thực hành clean code
+ + Đặt các tên lớp, phương thức và biến thích hợp. Chúng phải đơn giản và có ý nghĩa và đáp ứng được ba mục đích: nó làm gì, tại sao nó tồn tại và cách nó được sử dụng.
+ + Nhiều LTV thường hay viết những đoạn code quá phức tạp. Họ giao quá  nhiều trách nhiệm trong một lớp, điều này làm nó phức tạp khó duy trì vì vậy chỉ giao nhiệm vụ duy nhất cho một class
+ + Commen code rất quan trong, giúp chúng ta tiết kiệm được rất nhiều thời gian.
+ + Review code: 
+    +  1 hàm không nên quá 30 dòng.
+    +  Lớp không lên vượt quá 500 dòng
+    + 1 dòng không nên dài quá 80 kí tự
+    + 1 dòng chỉ chứa 1 biến
+    + 1 hàm không vượt quá 5 tham số
+ 
+<h2>Refactoring code</h2>
++ Giúp code dễ đọc, dễ tìm hiểu, dễ tiếp cận hơn từ đó nó sẽ giúp chúng ta dễ bảo trì, mở rộng hệ thống.
+<h2>SOLID là gif? </h2>
++ Là viết của 5 chữ cái đầu tiên trong 5 nguyên tắc thiết kế hướng đối tượng. Giúp cho LTV viết ra những đoạn code dễ đọc, dễ hiểu.
++ 5 nguyên tắc bao gồm : 
+  + Single responsibility priciple: Mỗi lớp chỉ nên chịu trách nhiệm về một nhiệm vụ cụ thể nào đó. Nếu có quá nhiều chức năng sẽ trở lên khó đọc.
+  + Open/Closed principle : Không được sửa đổi một Class có sẵn, nhưng có thể mở rộng bằng kế  thừa. Theo nghuyên lý này, nếu muốn thêm chức năng cho chương trình, chúng ta nên viết class mới mở rộng class cũ ( bằng cách kế thừa hoặc sở hữu class cũ ).
+  + Liskov substitution principle: Các đối tượng (instance) kiểu class con có thể thay thế các đối tượng kiểu class cha mà không gây ra lỗi.
+  + Interface segregation principle : Thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể.
+  + Dependency inversion principle: 
+    + Các module cấp cao không nên phụ thuộc vào các modules cấp thấp. Cả 2 nên phụ thuộc vào abstraction.
+    + Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại (Các class giao tiếp với nhau thông qua interface (abstraction), không phải thông qua implementation.)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Module2-reflection-ngày 1/2
 ***
