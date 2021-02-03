@@ -1,3 +1,20 @@
+# Module2-reflection-ngày 3/2
+***
+- Cấu trúc dữ liệu là cách lưu trữ, tổ chức dữ liệu có thứ tự, có hệ thống dữ liệu để dữ liệu có thể sử dụng một cách hiệu quả.
+- Đặc điểm  của cấu trúc dữ liệu là: 
+   + Chính xác
+   + Độ phức tạp về thời gian :  thời gian chạy hay thời gian thực thi phải nhở nhất có thể
+   + Độ phức tạp về bộ nhớ : Sử dụng bộ nhớ của mỗi phép tính dữ liệu nên là nhỏ nhất có thể
+ - Cấu trúc dữ liệu ArrayList:
+   + Là một cấu trúc dữ liệu danh sách đặc trưng, bên trong ArrayList sử dụng mảng để lưu trữ dữ liệu.
+   + Thao tác với ArrayList là chậm vì nó dùng nội bộ mảng. Nếu bất kỳ phần tử nào được xóa khỏi mảng , tất cả các bit được chuyển trong bộ nhớ
+   + Tốt hơn trong việc lưu trữ và truy cập dữ liệu nhờ việc truy xuất nhanh đến các phần tử, nhờ có  cơ chế truy xuất ngẫu nhiên của 1 mảng.
+ - LinkedList :
+   + Là một cấu trúc dữ liệu danh sách, các phần tử liên kết qua các tham chiếu tuyến tính giữa các phần tử liên tiếp nhau.
+   + So với ArrayList thì thao tác của Linked nhanh hơn bởi vì nó sử dụng danh sách liên kết, do đó không cần chuyển đổi bit nào.
+   + Vì thao tác dữ liệu nhanh nên các thao tác thêm sửa xóa phần tử trong LinkedList lại rất hiệu quả, bởi vì chỉ cần thay đổi tham chiếu phần tử
+   
+   
 # Module2-reflection-ngày 2/2
 ***
 
