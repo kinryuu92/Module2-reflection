@@ -18,11 +18,11 @@
  - Cấu trúc cây (tree) 
       +  Là một cấu trúc dữ liệu gồm một tập hợp hữu hạn các nút,  giữa các nút có 1 mối quan hệ "cha-con". Có một nút đặc biệt gọi là gốc (root)
 
-- Duyệt qua các phần tử của tree
-      +  pre-order - duyệt node hiện tại rồi sau đó sang cây bên trái và cây bên phải
-      +  in-order (đối xứng) - duyệt bên trái trước, sau đó duyệt node hiện tại, rồi duyệt node bên phải
-      +  post-order - duyệt bên trái trước, sau đó bên phải, rồi duyệt node hiện tại
-      +  level-order (duyệt theo bề rộng) - duyệt node hiện tại, sau đó duyệt tất cả các node anh em (siblings), rồi chuyển sang duyệt những node ở level tiếp theo
+ -  Duyệt qua các phần tử của tree
+      +   pre-order - duyệt node hiện tại rồi sau đó sang cây bên trái và cây bên phải
+      +   in-order (đối xứng) - duyệt bên trái trước, sau đó duyệt node hiện tại, rồi duyệt node bên phải
+      +   post-order - duyệt bên trái trước, sau đó bên phải, rồi duyệt node hiện tại
+      +   level-order (duyệt theo bề rộng) - duyệt node hiện tại, sau đó duyệt tất cả các node anh em (siblings), rồi chuyển sang duyệt những node ở level tiếp theo
 
 # Module2-reflection-ngày 3/2
 ***
