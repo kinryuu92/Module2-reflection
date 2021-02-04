@@ -1,3 +1,29 @@
+# Module2-reflection-ngày 4/2
+***
+- Stack
+  +  là một cấu trúc dữ liệu danh sách, trong đó việc thêm và lấy được thực hiện theo quy tắc FILO(Firt-In/Last-Out), có nghĩa là phần tử nào đầu tiên sẽ được lấy sau cùng. Nguyên tắc này cũng được gọi là LIFO (Last-In/First-Out), có nghĩa là phần tử nào được đưa vào sau cùng sẽ lấy ra đầu tiên
+  +  Các thao tác thông dụng của stack: 
+     +  init : Khởi tạo stack
+     +  Push : thêm 1 phần tử vào stack
+     +  Pop : Loại bỏ phần tử cuối cùng được thêm vào đầu stack
+     +  isEmpty : Kiểm tra stack có trống hay không
+     +  top : Lấy ra giá trị đầu tiên của stack
+- Queue 
+   + là một cấu trúc dữ liệu danh sách, Việc thêm và lấy theo quy tắc FIFO(Firt-in/Firt-out), phần tử thêm vào đầu tiên sẽ lấy đầu tiên, Cũng gọi là nguyên tắc LILO-thêm vào sao cùng lấy ra sau cùng.
+   + các thao tác thông dụng: 
+      +  init: khởi tạo một hàng đợi
+      +  enqueue: thêm 1 phần tử vào cuối
+      +  dequeue: Lấy ra phần tử đầu tiên
+      +  isEmpty: trả về true/false xem hàng đợi này có chứa phần tử nào ko.
+ - Cấu trúc cây (tree) 
+      +  Là một cấu trúc dữ liệu gồm một tập hợp hữu hạn các nút,  giữa các nút có 1 mối quan hệ "cha-con". Có một nút đặc biệt gọi là gốc (root)
+
+- Duyệt qua các phần tử của tree
+      +  pre-order - duyệt node hiện tại rồi sau đó sang cây bên trái và cây bên phải
+      +  in-order (đối xứng) - duyệt bên trái trước, sau đó duyệt node hiện tại, rồi duyệt node bên phải
+      +  post-order - duyệt bên trái trước, sau đó bên phải, rồi duyệt node hiện tại
+      +  level-order (duyệt theo bề rộng) - duyệt node hiện tại, sau đó duyệt tất cả các node anh em (siblings), rồi chuyển sang duyệt những node ở level tiếp theo
+
 # Module2-reflection-ngày 3/2
 ***
 - Cấu trúc dữ liệu là cách lưu trữ, tổ chức dữ liệu có thứ tự, có hệ thống dữ liệu để dữ liệu có thể sử dụng một cách hiệu quả.
