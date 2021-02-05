@@ -1,5 +1,6 @@
 # Module2-reflection-ngày 5/2
 ***
+- Bộ thư viện SPL (Standard PHP Libary) cung cấp nhiều dữ liệu tiêu chuẩn để chúng ta có thể sử dụng ngay trong ứng dụng của mình. Các cấu trúc dữ liệu này được phân thành các nhóm dựa vào hình thức triển khai của chúng, và cũng căn cứ vào cách sử dụng của chúng trong các tình huống thực tế
 - Các thành phần của SPL :
   +  Predefined Constants là danh sách các hằng số :số pi, số E,...
   +  Datastructures chứa danh sách các lớp co khả năng làm việc với cấu trúc, dữ liệu khác nhau LinkList, Stack, Queue, Heaps,...
@@ -9,7 +10,11 @@
   +  File Handling cung cấp các lớp làm việc với file trong hệ thống.
   +  SPL Funtions cung cấp các hàm hỗ trợ cần thiết.
   +  Miscellaneous Classes và Interface.
-
+- Double LinkedList ( danh sách liên kết dodoi):
+  + Một danh sách liên kết đôi là một danh sách các NODE được liên kết với nhau theo 2 hướng. 1 số DS liên kết đồi bao gồ
+      +  SplDoublyLinkedList
+         + SplStack
+         + SplQueue       
 
 
 # Module2-reflection-ngày 4/2
