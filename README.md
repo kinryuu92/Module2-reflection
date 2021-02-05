@@ -1,3 +1,18 @@
+# Module2-reflection-ngày 5/2
+***
+- Các thành phần của SPL :
+
++  Predefined Constants là danh sách các hằng số :số pi, số E,...
++  Datastructures chứa danh sách các lớp co khả năng làm việc với cấu trúc, dữ liệu khác nhau LinkList, Stack, Queue, Heaps,...
++  Interator: Chứa các lớp cho phép có khả năng thực hiện các phép lặp để duyệt các cấu trúc khác nhau tùy vào cấu trúc dữ liệu.
++  Danh sách các Interface
++  Exception là danh sách điều khiển các lớp ngoại lệ
++  File Handling cung cấp các lớp làm việc với file trong hệ thống.
++  SPL Funtions cung cấp các hàm hỗ trợ cần thiết.
++  Miscellaneous Classes và Interface.
+
+
+
 # Module2-reflection-ngày 4/2
 ***
 - Stack
