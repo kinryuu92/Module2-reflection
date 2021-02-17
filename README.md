@@ -1,10 +1,10 @@
 # Module2-reflection-ngày 17/2
 - Tìm kiếm tuyến tính (Linear Search):
-+ Hay còn gọi là thuật toán tìm kiếm tuần tự là một phương pháp tìm kiếm một phần tử cho trước trong một danh sách bằng cách duyệt lần lượt từng phần tử của danh sách đó cho đến lúc tìm thấy giá trị mong muốn hay đã duyệt qua toàn bộ danh sách.
-+ Đặc điểm cơ bản của nó là rất đơn giản khi giải thuật, khá tỏ ra hiệu quả khi cần tìm kiếm trên một danh sách đủ nhỏ hoặc danh sách chưa sắp xếp thứ tự đơn giản.    
+  + Hay còn gọi là thuật toán tìm kiếm tuần tự là một phương pháp tìm kiếm một phần tử cho trước trong một danh sách bằng cách duyệt lần lượt từng phần tử của danh sách đó cho đến lúc tìm thấy giá trị mong muốn hay đã duyệt qua toàn bộ danh sách.
+  + Đặc điểm cơ bản của nó là rất đơn giản khi giải thuật, khá tỏ ra hiệu quả khi cần tìm kiếm trên một danh sách đủ nhỏ hoặc danh sách chưa sắp xếp thứ tự đơn giản.    
 - Tìm kiếm nhị phân (Binary Search): 
-+ Hay còn gọi là thuật toán tìm kiếm một nửa, bắt đầu với một khoảng từ phần tử đầu mảng, tới cuối mảng. Nếu giá trị của giá trị cần tìm nhỏ hơn giá trị của phần tử nằm ở giữa khoảng thì thu hẹp phạm vi tìm kiếm từ đầu mảng tới giữa mảng và ngược lại. Cứ thế tiếp tục chia pham vi thành các nửa cho đến khi tìm thấy hoặc đã duyệt hết.
-+ Thuật toán tìm kiếm nhị phân tỏ ra tối ưu hơn so với tìm kiếm tuyến tính ở các mảng độ dài lớn và đã được sắp xếp. Ngược lại, tìm kiếm tuyến tính sẽ tỏ ra hiệu quả hơn khi triển khai trên mảng nhỏ và chưa được sắp xếp.
+  + Hay còn gọi là thuật toán tìm kiếm một nửa, bắt đầu với một khoảng từ phần tử đầu mảng, tới cuối mảng. Nếu giá trị của giá trị cần tìm nhỏ hơn giá trị của phần tử nằm ở giữa khoảng thì thu hẹp phạm vi tìm kiếm từ đầu mảng tới giữa mảng và ngược lại. Cứ thế tiếp tục chia pham vi thành các nửa cho đến khi tìm thấy hoặc đã duyệt hết.
+  + Thuật toán tìm kiếm nhị phân tỏ ra tối ưu hơn so với tìm kiếm tuyến tính ở các mảng độ dài lớn và đã được sắp xếp. Ngược lại, tìm kiếm tuyến tính sẽ tỏ ra hiệu quả hơn khi triển khai trên mảng nhỏ và chưa được sắp xếp.
 
 
 # Module2-reflection-ngày 5/2
