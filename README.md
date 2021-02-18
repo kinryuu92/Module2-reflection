@@ -10,16 +10,15 @@
    + là thuật toán đơn giản, với thao tác cơ bản là so sánh các phần tử liền kề nhau, nếu chúng chưa đứng đúng thứ tự thì đổi chổ cho nhau. Nó sử dụng phép so sánh các phần tử nên là một giải thuật sắp xếp kiểu so sánh.
    + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi mà độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
    + Mã giả : 
-     + procedure bubble_sort2(list L, number n)  //n=listsize
-       For number i from 1 to n-1 
-        for number j from n-1 downto i
-            if L[j] > L[j + 1] //nếu chúng không đúng thứ tự
-                swap(L[j], L[j + 1]) //đổi chỗ chúng cho nhau
-            endif
-        endfor
-       endfor
-       endprocedure
-
+     + procedure bubble_sort2(list L, number n)  //n=listsize </br>
+       For number i from 1 to n-1 </br>
+        for number j from n-1 downto i </br> 
+            if L[j] > L[j + 1] //nếu chúng không đúng thứ tự </br>
+                swap(L[j], L[j + 1]) //đổi chỗ chúng cho nhau </br>
+            endif </br>
+        endfor </br>
+       endfor </br>
+       endprocedure </br>
   
 ***
 # Module2-reflection-ngày 17/2
