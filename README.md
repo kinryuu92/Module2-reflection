@@ -6,19 +6,20 @@
 ***
 - Thuật toán sắp xếp (sorting)là quá trình bố  trí lại các phần tử của một danh sách đối tượng nào đó theo một trật tự nhất định. Chảng hạn như thứ tự tăng dần (hay giảm dần) đối với một dãy số, thứ tự từ điển đối với một dãy chữ... 
 
-- Sắp xếp nổi bọt(bubble sort) 
+- Sắp xếp nổi bọt(bubble sort) :
    + là thuật toán đơn giản, với thao tác cơ bản là so sánh các phần tử liền kề nhau, nếu chúng chưa đứng đúng thứ tự thì đổi chổ cho nhau. Nó sử dụng phép so sánh các phần tử nên là một giải thuật sắp xếp kiểu so sánh.
    + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi mà độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
-   + Mã giả : 
-     + procedure bubble_sort2(list L, number n)  //n=listsize </br>
-       For number i from 1 to n-1 </br>
-        for number j from n-1 downto i </br> 
-            if L[j] > L[j + 1] //nếu chúng không đúng thứ tự </br>
-                swap(L[j], L[j + 1]) //đổi chỗ chúng cho nhau </br>
-            endif </br>
-        endfor </br>
-       endfor </br>
-       endprocedure </br>
+
+- Sắp xếp chèn (Insertion Sort) :
+   + Là chèn thêm một phần tử vào danh sách con đã qua sắp xếp. Phần tử được chèn vào vị trí thích hợp sao cho vẫn đảm bảo rằng danh sách con đó vẫn sắp theo thứ tự
+   + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
+
+- Giải thuật sắp xếp chọn (Selection Sort)
+   + Là thuật toán dựa trên việc so sánh tại chỗ ,sắp xếp một mảng bằng cách liên tục tìm phần tử tối thiểu, từ phần không được sắp xếp và đặt nó ở đầu. Thuật toán duy trì hai mảng con trong một mảng nhất định.
+      + Mảng con đã được sắp xếp
+      + Mảng con còn lại chưa được sắp xếp
+   + Trong mỗi lần sắp xếp lựa chọn, phần tử tối thiểu từ mảng con chưa được sắp xếp được chọn và chuyển đến mảng con đã được sắp xếp.
+   + Giải thuật này không phù hợp với tập dữ liệu lớn khi mà độ phức tạp trường hợp xấu nhất và trường hợp trung bình là O(n2) với n là số phần tử.
   
 ***
 # Module2-reflection-ngày 17/2
