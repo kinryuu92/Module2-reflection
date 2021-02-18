@@ -1,4 +1,29 @@
+
+
+
+***
+# Module2-reflection-ngày 18/2
+***
+- Thuật toán sắp xếp (sorting)là quá trình bố  trí lại các phần tử của một danh sách đối tượng nào đó theo một trật tự nhất định. Chảng hạn như thứ tự tăng dần (hay giảm dần) đối với một dãy số, thứ tự từ điển đối với một dãy chữ... 
+
+- Sắp xếp nổi bọt(bubble sort) 
+   + là thuật toán đơn giản, với thao tác cơ bản là so sánh các phần tử liền kề nhau, nếu chúng chưa đứng đúng thứ tự thì đổi chổ cho nhau. Nó sử dụng phép so sánh các phần tử nên là một giải thuật sắp xếp kiểu so sánh.
+   + Giải thuật này không thích hợp sử dụng với các tập dữ liệu lớn khi mà độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử.
+   + Mã giả : 
+     + procedure bubble_sort2(list L, number n)  //n=listsize
+       For number i from 1 to n-1 
+        for number j from n-1 downto i
+            if L[j] > L[j + 1] //nếu chúng không đúng thứ tự
+                swap(L[j], L[j + 1]) //đổi chỗ chúng cho nhau
+            endif
+        endfor
+       endfor
+       endprocedure
+
+  
+***
 # Module2-reflection-ngày 17/2
+***
 - Tìm kiếm tuyến tính (Linear Search):
   + Hay còn gọi là thuật toán tìm kiếm tuần tự là một phương pháp tìm kiếm một phần tử cho trước trong một danh sách bằng cách duyệt lần lượt từng phần tử của danh sách đó cho đến lúc tìm thấy giá trị mong muốn hay đã duyệt qua toàn bộ danh sách.
   + Đặc điểm cơ bản của nó là rất đơn giản khi giải thuật, khá tỏ ra hiệu quả khi cần tìm kiếm trên một danh sách đủ nhỏ hoặc danh sách chưa sắp xếp thứ tự đơn giản.    
