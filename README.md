@@ -3,8 +3,8 @@
 ***
 - Xử lý ngoại lệ là khi luồng thực thi của một ứng dụng diễn ra không như ý muốn thông thường, thì được cho là ngoại lệ. Do đó, trong các chương trình phần mềm, chúng ta thường triển khai các cơ chế xử lí ngoại lệ để chương trình đảm bảo được các tình huống xảy ra.
 - Để xử lý ngoại lệ, chúng ta sử dụng câu lệnh try/catch.Để sử dụng câu lệnh này, chúng ta viết khối try xung quanh các câu lệnh có thể xảy ra ngoai lệ đó. Sau đó chúng ta viết khối catch chứa các lệnh thực thi nếu có bất kì ngoại lệ xảy ra trong bất kì câu lệnh nào trong khối tr
+- Throw : Đây là cách kích hoạt 1 ngoại lệ> Mỗi "Throw" bắt buộc phải có 1 'catch' 
 - Ví du:
--  
 -  function checkNum($number) {
     if($number>1) { <br>
     throw new Exception("Value must be 1 or below");<br>
