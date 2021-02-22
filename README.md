@@ -1,4 +1,39 @@
 ***
+# Module2-reflection-ngày 22/2
+***
+- String:
+  + là kiểu dữ liệu cơ bản trong PHP
+  + Là đãy liên tiếp các kí tự
+  + Đươc bao quanh bơi dấu " ", và ' ' 
+  + Chuỗi không có kí tự gọi là chuỗi kí tự rỗng,
+- Một số hàm làm việc với chuỗi: 
+  +  Strlen($string): Hàm trả về độ dài của chuỗi
+  +  str_word_count($string): Hàm trả về số từ trong chuỗi
+  +  str_replace($find, $replace, $string): Hàm tìm kiếm chuỗi $find, thay thế chuỗi đó bằng $replace trong chuỗi ban đầu ($string)
+  +  trim($string, $charlist): Hàm có tác dụng loại bỏ khoảng trắng hoặc các ký tự $charlist trong chuỗi $tring.
+- RegEx ( Regulation Expresstion ) Biểu thức chính quy:
+  + Được hiểu đơn giản là một biểu thức dùng để mô tả một mẫu chuỗi nào đó
+  + Được dùng để xử lý  chuỗi nâng cao qua biểu thức rieeng của nó, những biểu thức này có nghuyên tắc riêng của nó, những biểu thức này sẽ có nguyên tắc riêng và phải tuân theo nghuyên tắc đó thì biểu thức mới hoạt động.
+- Tại sao lại dùng RegEx : 
+  +  Đơn giản hóa việc xác định các mẫu trong chuỗi dữ liệu bằng cách gọi hàm duy nhất
+  +  Xác thực dữ liệu người dùng nhập vào như password, ID...
+  +  Dễ dàng từ khóa  trong tìm kiếm
+  +  Tạo mẫu HTML hoàn chỉnh và tăng hiệu suất chương trình lên nhiều lần.
+- Khai báo biểu thức chính quy: 
+  + Để khai báo 1 chuỗi RegEx ta chỉ cần khai báo bắt đầu bằng kí tự / và kết thúc cũng là ký tự /.
+  + Cú pháp : $pattern : '/các ký tự của RegEx - metacharacters/Flaf/';
+- Một số kí tự cơ bản trong RegEx:
+  + ^: bắt đầu bằng một chuỗi
+  + $: kết thúc của chuỗi
+  + *: 0 hoặc nhiều lần xuất hiện
+  + +: 1 hoặc nhiều lần xuất hiện
+  + ?: 0 hoặc 1 lần xuất hiện
+  + .: Đại diện cho 1 kí tự bất kì
+  + [] : Tìm tập hợp các chuỗi
+  + \ : tìm kiếm giá trị đặc biệt
+  + | : chọn giá trị A hoăc B => (A|B)
+
+***
 # Module2-reflection-ngày 19/2
 ***
 - Xử lý ngoại lệ là khi luồng thực thi của một ứng dụng diễn ra không như ý muốn thông thường, thì được cho là ngoại lệ. Do đó, trong các chương trình phần mềm, chúng ta thường triển khai các cơ chế xử lí ngoại lệ để chương trình đảm bảo được các tình huống xảy ra.
