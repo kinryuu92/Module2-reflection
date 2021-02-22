@@ -11,6 +11,8 @@
   +  str_word_count($string): Hàm trả về số từ trong chuỗi
   +  str_replace($find, $replace, $string): Hàm tìm kiếm chuỗi $find, thay thế chuỗi đó bằng $replace trong chuỗi ban đầu ($string)
   +  trim($string, $charlist): Hàm có tác dụng loại bỏ khoảng trắng hoặc các ký tự $charlist trong chuỗi $tring.
+  
+  
 - RegEx ( Regulation Expresstion ) Biểu thức chính quy:
   + Được hiểu đơn giản là một biểu thức dùng để mô tả một mẫu chuỗi nào đó
   + Được dùng để xử lý  chuỗi nâng cao qua biểu thức rieeng của nó, những biểu thức này có nghuyên tắc riêng của nó, những biểu thức này sẽ có nguyên tắc riêng và phải tuân theo nghuyên tắc đó thì biểu thức mới hoạt động.
