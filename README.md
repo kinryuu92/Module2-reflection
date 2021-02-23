@@ -4,13 +4,30 @@
 - Hệ quản trị cơ sở dữ liệu
   + Database Management System là hệ thống được thiết kế quản lí một khối lượng dữ liệu nhất định một cách tự động và có trật tự. Các hành động quản lý bao gồm chỉnh, sửa, xóa, lưu thông tin và tìm kiếm trong một nhóm dữ liệu nhất định.
   + Nói một cách khác hệ quản trị CSDL là hệ thống tự động giúp người dùng kiểm soát các thông tin, tạo, cập nhật và duy trì các CSDL. Trong đó có  2 thành phần chính trong một hệ quản trị CSDL là bộ xử lí yêu cầu và bộ quản lí dữ liệu.
+  
  - Hệ quản trị CSDL quan hệ 
    + là một CSDL được xây dựng trên mô hình dữ liệu quan hệ(renation model of data), nó được tổ chức trong các bảng (table - quan hệ relation). Các thành phần có  các quan hệ ràng buộc với nhau
- - Sự khác nhau giữa DBMS và RDBMS 
-        + DBMS Lưu trữ dữ liệu dưới dạng file  - RDBMS Lưu dữ liệu d 
-        + DL được lưu trữ duới dạng phân cấp và điều hướng
-        + Không có  chuẩn hóa DL
-        + Không có bảo v      
+   
+ - Sự khác nhau giữa DBMS và RDBMS
+   + DBMS 
+     + DBMS Lưu trữ dữ liệu dưới dạng file  
+     + DL được lưu trữ duới dạng phân cấp và điều hướng
+     + Không có  chuẩn hóa DL
+     + Không có bảo vệ DL khi thực hiện các thao tác
+     + Thường dùng trong DL nhỏ và khối lượng DL nhỏ
+     + Cung cấp những phương thức thống nhất để truy cập vào thông tin được lưu trữ
+     + Không có hỗ trợ DL phân tán
+     + VD của DBMS là file system, xml,...    
+    
+   + RDBMS
+     + Được lưu trữ dưới dạng bảng 
+     + Bảng có một định danh goi là khóa chính và giá trị được lưu trữ dưới dạng bảng
+     + có chuẩn hóa dữ liệu
+     + Có ràng buôc toàn vẹn đảm bảo toàn vẹn DL khi thực hiện các thao tác DL như thêm sửa xóa...
+     + Hỗ trợ một cấu trúc bảng và quan hệ giữa chúng để truy cập vào thông tin lưu trữ
+     + Hỗ trợ CSDL phân tán
+     + Được thiết kế xử lý lượng DL lớn, hỗ trợ nhiều người dùng
+     + Ví dụ về RDBMS là MySQL, ORACLE h 
 
        
 
