@@ -1,4 +1,25 @@
 ***
+# Module2-reflection-ngày 24/2
+***
+- Mục đích của thiết kế của CSDL
+  + Phân tích và thiết kế CSDL là thao tác thực hiện để tìm ra mô hình CSDl trong một tình huống nhất định
+  + Tạo ra một bảng thiết kế của CSDL, dựa nào đó chúng ta có thể viết câu lệnh để tạo ra CSDL đó
+  + Thiết kế CSDL giúp đảm bảo dữ liệu phù hợp, loại bỏ dữ liệu dư thừa, hiệu quả cao trong việc truy vấn và đem lại hiệu suất cao đồng thời dễ khôi phuc và bảo trì
+  
+ - Các bước thiết kế của CSDL
+  + B1: Xác định mục đích của CSDL.
+  + B2: Tìm hiểu và tổ chức các thông tin cần lưu trữ.
+  + B3: chia thông tin vào trong các bảng.
+  + B4: Xác định trường dữ liệu của từng bảng.
+  + B5: Xác định được khóa chính và khóa phụ của các bảng.
+  + B6: Mối quan hệ giữa các bảng.
+  + B7: Áp dụng các quy tắc chuẩn hóa.
+ 
+ - Các mức chuẩn hóa cơ bản:
+  + Chuẩn 1 (1NF – First Normal Form): Gía trị lưu trữ trong ô phải là giá trị đơn và trong bảng không có  cột nào được lặp lại
+  + Chuẩn 2 (2NF – Second Normal Form): Mọi trường không phải là khóa, phải phụ thuộc vào khóa chính.
+  + Chuẩn 3 (3NF – Third Normal Form): Tất cả các thuộc tính không khóa phải được suy ra trực tiếp từ thuộc tính khóa.
+***
 # Module2-reflection-ngày 23/2
 ***
 - Hệ quản trị cơ sở dữ liệu
