@@ -1,4 +1,44 @@
 ***
+# Module2-reflection-ngày 25/2
+***
+- Toán tử AND 
+   +  Được sử dụng để quy định trả về đúng nếu 2 điều kiện ở hai vế trả về giá trị TRUE
+   +  Cú pháp : 
+        +  SELECT colum1, colum2...FROM table_name
+        +  WHERE condition1 AND condition2...;
+        +  
+- Toán tử OR 
+   +  Được sử dụng để quy định trả về đúng nếu 1 trong 2 điều kiện ở 2 vế trả về giá trị TRUE
+   +  Cú Phasp :
+        + SELECT column1, column2...FROM table_name
+        + WHERE condition1  OR condition 2...;
+      
+ - Câu lệnh ORDER BY
+   + Sắp xếp các bản ghi theo trật tự dựa vào giá trị của một cột hoặc nhiều cột
+   + Cú pháp: 
+      + SELECT column1, column2...FROM table_name
+      + ORDER BY colum1, column2...ASC|DESC;
+   + trong đó: 
+      +  ASC: trật tự tăng dần
+      +  DESC: trật tự giảm dần
+      
+ - Câu lệnh GROUP BY
+   + Được dùng để nhóm các kết quả dựa vào giá trị của một cột hoặc nhiều cột.
+   + Câu lệnh của GROUP BY thường được dùng với các hàm khác như : COUNT(), MIN(), MAX(), SUM(), AVG()
+ - Cú pháp: 
+   + SELECT column_name(s) FROM table_name
+   + WHERE CONDITION
+   + GROUP BY column_name(s)
+   
+ - Câu lệnh HAVING
+   + Được sử dụng quy định điều kiện trong trường hợp sử dụng các hàm SQL
+   + Cú Pháp :
+      +  SELECT column_name(s) FROM tabel_name
+      +  WHERE condition
+      +  GROUP BY column_name(s)
+      +  HAVING condition
+      +  
+***
 # Module2-reflection-ngày 24/2
 ***
 - Mục đích của thiết kế của CSDL
