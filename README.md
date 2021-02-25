@@ -6,7 +6,7 @@
    +  Cú pháp : 
         +  SELECT colum1, colum2...FROM table_name
         +  WHERE condition1 AND condition2...;
-        +  
+        
 - Toán tử OR 
    +  Được sử dụng để quy định trả về đúng nếu 1 trong 2 điều kiện ở 2 vế trả về giá trị TRUE
    +  Cú Phasp :
@@ -37,7 +37,7 @@
       +  WHERE condition
       +  GROUP BY column_name(s)
       +  HAVING condition
-      +  
+      
 ***
 # Module2-reflection-ngày 24/2
 ***
