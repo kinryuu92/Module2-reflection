@@ -1,4 +1,27 @@
 ***
+# Module2-reflection-ngày 26/2
+***
+- Hàm AVG : trả về giá trị trung bình của một cột kiểu số.
+  + Cú pháp: 
+    + SELECT AVG(column_name) 
+    + FROM table_name
+    + WHERE condition;
+- Hàm COUNT : Trả về số lượng bản ghi thỏa mãn điều kiện đưa ra
+   + cú pháp : 
+      + SELECT COUNT(column_name)
+      + FROM table_name
+      + WHERE condition;
+ - Hàm MAX() và MIN () trả về giá trị lớn nhất và nhỏ nhất trong một cột và thoả mãn điều kiện đưa ra. 
+   + Cú pháp : 
+      + SELECT MAX(column_name) 
+      + FROM table_name
+      + WHERE condition;
+- Hàm SUM() trả về tổng giá trị của một cột kiểu số.
+   + Cú Pháp: 
+      + SELECT SUM(column_name)
+      + FROM table_name
+      + WHERE condition;
+***
 # Module2-reflection-ngày 25/2
 ***
 - Toán tử AND 
@@ -17,7 +40,7 @@
    + Sắp xếp các bản ghi theo trật tự dựa vào giá trị của một cột hoặc nhiều cột
    + Cú pháp: 
       + SELECT column1, column2...FROM table_name
-      + ORDER BY colum1, column2...ASC|DESC;
+      + ORDER BY colum1, column2...ASC|DESC;ca
    + trong đó: 
       +  ASC: trật tự tăng dần
       +  DESC: trật tự giảm dần
