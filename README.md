@@ -1,4 +1,31 @@
 ***
+# Module2-reflection-ngày 3/3
+***
+- Mô hình MVC là viết tắt của Model-View-Controller, một phần mềm được tạo ra với mục đích quản lý và xây dựng dự án 1 cách có hê thống hơn.
+- Trong PHP hiện tai đang có khác nhiều Framework và tất cả đều được xây dựng bằng mô hình MVC
+- Mô hình MVC là mô hình cấu trúc gồm ba lớp : Model, View, Controller.
+     + Model: có nhiệm vụ thao tác với cơ sở dữ liệu, nghĩa là nó sẽ chứa tất cả các hàm, các phương thức truy vấn trực tiếp với dữ liệu và controller sẽ thông qua các hàm, phương thức đó để lấy dữ liệu rồi gửi qua View.
+     + View: có nhiệm vụ tiếp nhận dữ liệu từ controller và hiển thị nội dung sang các đoạn mã HTML, bạn có thể hiểu nôm na đây người ta còn gọi là thành phần giao diện.
+     + Controller: đóng vài trò trung gian giữa Model và View. Nó có nhiệm vụ tiếp nhận yêu cầu từ client sau đó xử lý request, load model tương ứng và gửi data qua view tương ứng rồi trả kết quả về cho client
+
+***
+# Module2-reflection-ngày 2/3
+***
+- CRUD  là các câu lệnh thực thi CRUD (CREAT -READ - UPDATE - DELETE) trong MySQL:
+- Trong đó : 
+  + CREATE: từ khóa dùng để tạo bảng, dữ liệu,...
+  + READ : đọc dữ liệu, hiện thị dữ liệu từ database ra view cho người dùng nhìn thấy.
+  + UPDATE : cập nhập dữ liệu trong bảng, thay đổi giá trị của các cột trong bảng khi chỉ ra điều kiện cụ thể.
+  + DELETE : dùng để xóa một bản ghi trong bảng
+- Ngoài ra còn có các câu lệnh sau: 
+  + INSERT : Chèn dữ liệu vào 1 bảng hoặc 1 cột
+  + Cú Pháp :
+     + INSERT INTO table_name (column1, column2, column3, ...)  VALUES (value1, value2, value3, ...) 
+     
+  + SELECT hiện thị dữ liệu trong bảng. Dữ liệu trả về lưu trong bảng kết quả.
+  + Cú  phasp: 
+     + select column1, column 2, ... from table_name
+***
 # Module2-reflection-ngày 1/3
 ***
 - Chỉ mục index:
