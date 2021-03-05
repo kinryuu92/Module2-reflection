@@ -1,4 +1,17 @@
 ***
+# Module2-reflection-ngày 4/3
+***
+ - CSS (cascading style sheet)là ngôn ngữ tạo phong cách cho trang web.Nó dùng để tạo phong cách và định kiểu cho những yếu tố được viết dưới dạng ngôn ngữ đánh dấu, như là HTML.
+ - Cách nhúng CSS vào website:
+    + Viết mã CSS trực tiếp vào thẻ HTMl.
+    + Viết mã CSS trong cặp thẻ style
+    + Nhúng mã CSS từ một file khác vào trang HTMl
+ - CSS giúp bạn thực hiện định kiểu mọi thứ mình muốn lên một file khác. Nhờ vậy, bạn có thể tạo ra được những phong cách phù hợp rồi mới tích hợp các file CSS lên trên cùng file của HTML. Điều này sẽ giúp cho HTML được makup rõ ràng nhất và người dùng có thể quản lý website dễ dàng hơn.
+ - Sử dụng CSS sẽ giúp bạn không cần thực hiện lặp lại các mô tả cho từng thành phần. Từ đó, bạn có thể tiết kiệm được tối đa thời gian làm việc với nó, làm code ngắn lại giúp kiểm soát dễ dàng hơn các lỗi không đáng có.
+ - CSS giúp người dùng nhiều styles trên một trang web HTML nên khả năng điều chỉnh trang của bạn trở nên vô hạn.
+
+
+***
 # Module2-reflection-ngày 3/3
 ***
 - Mô hình MVC là viết tắt của Model-View-Controller, một phần mềm được tạo ra với mục đích quản lý và xây dựng dự án 1 cách có hê thống hơn.
