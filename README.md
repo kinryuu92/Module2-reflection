@@ -1,6 +1,6 @@
 
 ***
-# Module2-reflection-ngày 4/3
+# Module2-reflection-ngày 5/3
 ***
 - Thiết kế layous là thiết kế các bố cục, cách sắp xếp và trình bày các bộ phận , chi tiết nằm trong bản thiết kế đó bao gồm việc căn chirng lề khoảng cách, lựa chọn vị trí cho các thành phần.
 - 1 số thành phần cơ bản của một layuots : 
