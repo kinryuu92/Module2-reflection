@@ -1,3 +1,20 @@
+
+***
+# Module2-reflection-ngày 4/3
+***
+- Thiết kế layous là thiết kế các bố cục, cách sắp xếp và trình bày các bộ phận , chi tiết nằm trong bản thiết kế đó bao gồm việc căn chirng lề khoảng cách, lựa chọn vị trí cho các thành phần.
+- 1 số thành phần cơ bản của một layuots : 
+  + Header
+  + navigation
+  + slider
+  + content
+  + Footer
+- Thuộc tính position trong css được hiểu là thuộc tính xác định loại của phương pháp định vị cho thành phần.
+  + Static: Đây được xem là giá trị hiển thị Position trong css một cách mặc định (default), các thành phần sẽ nằm theo thứ tự của văn bản.  
+  + Relative: Định vị trí tuyệt đối cho các thành phần, không gây ảnh hưởng tới vị trí ban đầu hay các thành phần khác.
+  + Absolute: Giá trị này sẽ giúp định vị trí tuyệt đối cho thành phần theo thành phần bao ngoài, hoặc ít nhất là theo cửa sổ trình duyệt. Fixed: Định vị trí tương đối cho thành phần theo cửa sổ trình duyệt.
+  + Fixed: Định vị và giúp cho phần tử luôn cố định một chỗ, ví dụ như khi bạn scroll trình duyệt chẳng hạn, phần tử sẽ không thay đổi.
+
 ***
 # Module2-reflection-ngày 4/3
 ***
